@@ -1,4 +1,4 @@
-# Luma - Buzzvel Front-End Challenge (November 2026)
+# Luma
 
 A single responsive landing page built from the supplied Figma design using **Next.js 16 (App Router)**, **TypeScript** and **Tailwind CSS v4**.
 
