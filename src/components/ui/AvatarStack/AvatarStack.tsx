@@ -21,7 +21,7 @@ export function AvatarStack({ avatars, size = 32, ring = "cream", className }: A
       {avatars.map((avatar, index) => (
         <li
           key={`${avatar.src}-${index}`}
-          className={cn("relative rounded-full ring-2", rings[ring], index > 0 && "-ml-2.5")}
+          className={cn("relative rounded-full ring-[3px]", rings[ring], index > 0 && "-ml-1")}
           style={{ width: size, height: size, zIndex: index }}
         >
           <Image
